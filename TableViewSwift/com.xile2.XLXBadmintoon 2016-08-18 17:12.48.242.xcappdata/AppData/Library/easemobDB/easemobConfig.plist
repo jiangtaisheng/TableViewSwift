@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AutoAcceptGroupInvitation</key>
+	<true/>
+	<key>AutoFetchBuddyList</key>
+	<true/>
+	<key>AutoLogin</key>
+	<true/>
+	<key>RosterVersion_2200245309</key>
+	<string>27c35815f06b268561ad782e69450ed7f67c703d</string>
+	<key>password</key>
+	<string>SuMh3m9Wv7IPLwRxmqAjctU1YKjmFFkmJa9Sv4eSm/Un+I2EdM+VP78umAoEhEwN</string>
+	<key>token</key>
+	<string>Zoaot7t8bD/W7IKyTzg8/rmcKUNRJ3mC6ykA3qXP7WY8bIOlHGCOmhDDS4kECoNjGyBCIDP1fDkrd3UKVY0Z2g==</string>
+	<key>username</key>
+	<string>2200245309</string>
+</dict>
+</plist>

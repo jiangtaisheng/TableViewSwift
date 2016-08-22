@@ -1,0 +1,295 @@
+2016/08/16 11:15:58:772  database opened --- 2200245309
+2016/08/16 11:15:58:772  begin login username:2200245309--password:8e7cd4569259611a38230392f454631d116e90bf--
+2016/08/16 11:15:58:786  database opened --- 2200245309
+2016/08/16 11:15:59:008  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.26.56 -- port:443
+2016/08/16 11:15:59:149  SEND: <?xml version='1.0'?>
+2016/08/16 11:15:59:151  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:15:59:306  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='2774803344' from='easemob.com' version='1.0' xml:lang='en'><stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:15:59:308  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="2774803344" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:15:59:311  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 11:15:59:324  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 11:15:59:326  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:15:59:338  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='2686435717' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 11:15:59:339  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="2686435717" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:15:59:339  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:15:59:340  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 11:15:59:482  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 11:15:59:483  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:15:59:495  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='3530367910' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 11:15:59:496  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="3530367910" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:15:59:497  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:15:59:497  SEND: <iq type="set" id="C2A8158E-BBC5-4BC4-B532-90D5B1BB8B72"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 11:15:59:541  RECV: <iq id='C2A8158E-BBC5-4BC4-B532-90D5B1BB8B72' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 11:15:59:542  SEND: <iq type="set" id="687C4CD9-D44B-4F7B-8708-49F9B9561AEA"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 11:15:59:567  RECV: <iq type='result' id='687C4CD9-D44B-4F7B-8708-49F9B9561AEA'/>
+2016/08/16 11:15:59:569  SEND: <iq type="get" id="6489A7E4-ADAD-41FB-97F9-AE6C003B3218"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 11:15:59:570  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 11:15:59:571  SEND: <presence type="time_statistics" id="76E7CFF6-3597-4C74-84BE-35BE29AEBDA8"><im_login_time>558</im_login_time><chat_login_time>786</chat_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 11:15:59:575  SEND: <iq type="get" id="6E3DD287-3930-4CAB-A184-CCC14EAF2FDF"><query xmlns="jabber:iq:roster" ver="27c35815f06b268561ad782e69450ed7f67c703d"/></iq>
+2016/08/16 11:15:59:718  RECV: <message from='xilexuan#xilexuan_134864435960349100@conference.easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com' id='230839386114098072' type='groupchat'><body>{&quot;from&quot;:&quot;2200212513&quot;,&quot;to&quot;:&quot;134864435960349100&quot;,&quot;bodies&quot;:[{&quot;type&quot;:&quot;txt&quot;,&quot;msg&quot;:&quot;一起互赞&quot;}],&quot;ext&quot;:{}}</body><delay xmlns='urn:xmpp:delay' stamp='2016-08-16T01:34:42.871Z'/></message>
+2016/08/16 11:15:59:726  RECV: <message from='xilexuan#xilexuan_134864435960349100@conference.easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com' id='230844855922721356' type='groupchat'><body>{&quot;from&quot;:&quot;2200115264&quot;,&quot;to&quot;:&quot;134864435960349100&quot;,&quot;bodies&quot;:[{&quot;type&quot;:&quot;txt&quot;,&quot;msg&quot;:&quot;好的&quot;}],&quot;ext&quot;:{}}</body><delay xmlns='urn:xmpp:delay' stamp='2016-08-16T01:55:56.399Z'/></message>
+2016/08/16 11:15:59:726  begin insert message to chatter::134864435960349100, messageId::230839386114098072
+2016/08/16 11:15:59:727  RECV: <message from='xilexuan#xilexuan_186842891056841132@conference.easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com' id='230672149730296912' type='groupchat'><body>{&quot;from&quot;:&quot;2200064073&quot;,&quot;to&quot;:&quot;186842891056841132&quot;,&quot;bodies&quot;:[{&quot;msg&quot;:&quot;我在帖子《喜乐羽球圈 黄金联赛 8.6  悦动金羽俱乐部 内部赛 精彩瞬间集锦》里参与了“喜乐羽球圈 点赞送活跃”的活动，点赞还可以抽大奖哦，你也快来吧！&quot;,&quot;type&quot;:&quot;txt&quot;}],&quot;ext&quot;:{&quot;action_type&quot;:&quot;211&quot;,&quot;type&quot;:&quot;favor&quot;,&quot;url&quot;:&quot;http://xlx.xunbao178.com/xile/thread-381126.html?m=wechat&quot;}}</body><delay xmlns='urn:xmpp:delay' stamp='2016-08-15T14:45:45.098Z'/></message><message from='xilexuan#xilexuan_186842891056841132@conference.easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com' id='230672270186513488' type='groupchat'><body>{&quot;from&quot;:&quot;2200064073&quot;,&quot;to&quot;:&quot;186842891056841132&quot;,&quot;bodies&quot;:[{&quot;msg&quot;:&quot;我在帖子《喜乐羽球圈 黄金联赛 8.10 乐意俱乐部 内部赛 精彩瞬间集锦》里参与了“喜乐羽球圈 点赞送活跃”的活动，点赞还可以抽大奖哦，你也快来吧！&quot;,&quot;type&quot;:&quot;txt&quot;}],&quot;ext&quot;:{&quot;action_type&quot;:&quot;211&quot;,&quot;type&quot;:&quot;favor&quot;,&quot;url&quot;:&quot;http://xlx.xunbao178.com/xile/thread-380330.html?m=wechat&quot;}}</body><delay xmlns='urn:xmpp:delay' stamp='2016-08-15T14:46:13.144Z'/></message>
+2016/08/16 11:15:59:732  SEND: <message to="xilexuan#xilexuan_134864435960349100@conference.easemob.com" id="230839386114098072"><received xmlns="urn:xmpp:receipts" id="230839386114098072"/></message>
+2016/08/16 11:15:59:739  end insert message with account::2200245309, to chatter::134864435960349100, messageId::230839386114098072, result::YES
+2016/08/16 11:15:59:740  begin insert message to chatter::134864435960349100, messageId::230844855922721356
+2016/08/16 11:15:59:743  SEND: <message to="xilexuan#xilexuan_134864435960349100@conference.easemob.com" id="230844855922721356"><received xmlns="urn:xmpp:receipts" id="230844855922721356"/></message>
+2016/08/16 11:15:59:744  SEND: <message to="xilexuan#xilexuan_186842891056841132@conference.easemob.com" id="230672149730296912"><received xmlns="urn:xmpp:receipts" id="230672149730296912"/></message>
+2016/08/16 11:15:59:745  SEND: <message to="xilexuan#xilexuan_186842891056841132@conference.easemob.com" id="230672270186513488"><received xmlns="urn:xmpp:receipts" id="230672270186513488"/></message>
+2016/08/16 11:15:59:746  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='6489A7E4-ADAD-41FB-97F9-AE6C003B3218' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 11:15:59:746  end insert message with account::2200245309, to chatter::134864435960349100, messageId::230844855922721356, result::YES
+2016/08/16 11:15:59:748  begin insert message to chatter::186842891056841132, messageId::230672149730296912
+2016/08/16 11:15:59:748  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='6E3DD287-3930-4CAB-A184-CCC14EAF2FDF' type='result'/>
+2016/08/16 11:15:59:749  SEND: <iq type="get" id="F2D120D6-F41B-494F-978F-87135400460D"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 11:15:59:755  end insert message with account::2200245309, to chatter::186842891056841132, messageId::230672149730296912, result::YES
+2016/08/16 11:15:59:755  begin insert message to chatter::186842891056841132, messageId::230672270186513488
+2016/08/16 11:15:59:763  end insert message with account::2200245309, to chatter::186842891056841132, messageId::230672270186513488, result::YES
+2016/08/16 11:16:00:085  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='F2D120D6-F41B-494F-978F-87135400460D' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 11:20:32:160  SEND: </stream:stream>
+2016/08/16 11:33:07:434  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.26.56 -- port:443
+2016/08/16 11:33:07:452  SEND: <?xml version='1.0'?>
+2016/08/16 11:33:07:453  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:33:07:476  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='2281242822' from='easemob.com' version='1.0' xml:lang='en'><stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:33:07:476  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="2281242822" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:33:07:477  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 11:33:07:488  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 11:33:07:489  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:33:07:520  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='2291750913' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 11:33:07:520  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="2291750913" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:33:07:520  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:33:07:522  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 11:33:07:539  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 11:33:07:539  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:33:07:598  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='153440981' from='easemob.com' version='1.0' xml:lang='en'><stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:33:07:599  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="153440981" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:33:07:600  SEND: <iq type="set" id="E6AFB6E2-FB00-4CD9-96E6-42A232B02797"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 11:33:07:614  RECV: <iq id='E6AFB6E2-FB00-4CD9-96E6-42A232B02797' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 11:33:07:616  SEND: <iq type="set" id="DA966D0F-EBF0-4B77-A07E-4A5845DED7B6"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 11:33:07:671  RECV: <iq type='result' id='DA966D0F-EBF0-4B77-A07E-4A5845DED7B6'/>
+2016/08/16 11:33:07:686  SEND: <iq type="get" id="06AF115D-1251-48F3-8289-9FEA82D81A08"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 11:33:07:687  SEND: <presence type="time_statistics" id="0F716DAF-51F9-4DD5-A45A-0B0933AD341D"><im_login_time>248</im_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 11:33:07:692  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 11:33:07:724  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='06AF115D-1251-48F3-8289-9FEA82D81A08' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 11:33:07:729  SEND: <iq type="get" id="164E35BD-67BC-4E1E-8D95-DFCF0516C943"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 11:33:07:793  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='164E35BD-67BC-4E1E-8D95-DFCF0516C943' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 11:45:28:112  SEND: </stream:stream>
+2016/08/16 11:45:29:273  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.26.56 -- port:443
+2016/08/16 11:45:29:301  SEND: <?xml version='1.0'?>
+2016/08/16 11:45:29:303  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:45:29:615  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='4177227060' from='easemob.com' version='1.0' xml:lang='en'><stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:45:29:615  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="4177227060" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:45:29:615  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 11:45:29:628  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 11:45:29:628  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:45:29:658  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='728996141' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 11:45:29:658  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="728996141" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:45:29:659  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:45:29:660  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 11:45:29:679  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 11:45:29:680  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 11:45:29:736  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='2595740518' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 11:45:29:737  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="2595740518" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 11:45:29:737  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 11:45:29:738  SEND: <iq type="set" id="227FFD2C-60D8-43A0-968C-995F1AFA1C65"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 11:45:29:754  RECV: <iq id='227FFD2C-60D8-43A0-968C-995F1AFA1C65' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 11:45:29:755  SEND: <iq type="set" id="03443E49-4022-49C2-8635-16D66DBD4BD7"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 11:45:29:810  RECV: <iq type='result' id='03443E49-4022-49C2-8635-16D66DBD4BD7'/>
+2016/08/16 11:45:29:814  SEND: <iq type="get" id="ECA86795-F512-42A4-978B-3EADD63F5A52"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 11:45:29:815  SEND: <presence type="time_statistics" id="D862A4BF-0217-44DE-9D57-6C59829A73B5"><im_login_time>539</im_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 11:45:29:816  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 11:45:29:884  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='ECA86795-F512-42A4-978B-3EADD63F5A52' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 11:45:29:887  SEND: <iq type="get" id="CA7B0930-5F32-4D1F-B17C-547D7766D57C"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 11:45:29:931  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='CA7B0930-5F32-4D1F-B17C-547D7766D57C' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 11:50:31:764  SEND: </stream:stream>
+2016/08/16 14:59:57:673  database opened --- 2200245309
+2016/08/16 14:59:57:674  begin login username:2200245309--password:8e7cd4569259611a38230392f454631d116e90bf--
+2016/08/16 14:59:57:690  database opened --- 2200245309
+2016/08/16 14:59:57:992  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.20.34 -- port:443
+2016/08/16 14:59:58:030  SEND: <?xml version='1.0'?>
+2016/08/16 14:59:58:031  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 14:59:58:069  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1495649928' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 14:59:58:070  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1495649928" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 14:59:58:070  RECV: <stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 14:59:58:071  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 14:59:58:200  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 14:59:58:200  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 14:59:58:221  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='862684128' from='easemob.com' version='1.0' xml:lang='en'><stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 14:59:58:221  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="862684128" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 14:59:58:222  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 14:59:58:242  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 14:59:58:243  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 14:59:58:300  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1450914987' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 14:59:58:301  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1450914987" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 14:59:58:301  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 14:59:58:302  SEND: <iq type="set" id="2583C26E-5C89-4948-8E22-677C4B99C15D"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 14:59:58:420  RECV: <iq id='2583C26E-5C89-4948-8E22-677C4B99C15D' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 14:59:58:421  SEND: <iq type="set" id="0CC8B102-828C-4804-945D-6FCF63A38066"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 14:59:58:437  RECV: <iq type='result' id='0CC8B102-828C-4804-945D-6FCF63A38066'/>
+2016/08/16 14:59:58:439  SEND: <iq type="get" id="D4E052B6-41C1-481A-84D8-C0D170D3CB64"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 14:59:58:440  SEND: <presence type="time_statistics" id="0B55EA6B-FD9D-4FF2-B727-73D0E452DFD3"><im_login_time>445</im_login_time><chat_login_time>753</chat_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 14:59:58:440  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 14:59:58:451  SEND: <iq type="get" id="92A1B04B-8158-4F8B-B0E7-136C50195ACC"><query xmlns="jabber:iq:roster" ver="27c35815f06b268561ad782e69450ed7f67c703d"/></iq>
+2016/08/16 14:59:58:514  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='D4E052B6-41C1-481A-84D8-C0D170D3CB64' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 14:59:58:517  SEND: <iq type="get" id="60581423-066B-4F75-ABC0-7F71F29CD7C7"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 14:59:58:573  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='92A1B04B-8158-4F8B-B0E7-136C50195ACC' type='result'/>
+2016/08/16 14:59:59:111  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='60581423-066B-4F75-ABC0-7F71F29CD7C7' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 15:42:46:662  database opened --- 2200245309
+2016/08/16 15:42:46:663  begin login username:2200245309--password:8e7cd4569259611a38230392f454631d116e90bf--
+2016/08/16 15:42:46:679  database opened --- 2200245309
+2016/08/16 15:42:46:863  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.20.34 -- port:443
+2016/08/16 15:42:46:991  SEND: <?xml version='1.0'?>
+2016/08/16 15:42:46:992  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:42:47:018  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='3687560481' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:42:47:022  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="3687560481" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:42:47:023  RECV: <stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:42:47:023  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 15:42:47:037  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 15:42:47:037  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:42:47:064  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='2048106955' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:42:47:065  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="2048106955" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:42:47:066  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:42:47:067  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 15:42:47:083  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 15:42:47:084  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:42:47:147  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='4084153247' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:42:47:148  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="4084153247" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:42:47:150  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:42:47:150  SEND: <iq type="set" id="373310AF-8BD1-46B0-852C-CA4411F77646"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 15:42:47:287  RECV: <iq id='373310AF-8BD1-46B0-852C-CA4411F77646' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 15:42:47:288  SEND: <iq type="set" id="A9A8B16E-FC93-4614-A768-F81C10E1F3B7"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 15:42:47:304  RECV: <iq type='result' id='A9A8B16E-FC93-4614-A768-F81C10E1F3B7'/>
+2016/08/16 15:42:47:306  SEND: <iq type="get" id="C3588CD4-E065-4BCC-8F7F-5C453CBE8303"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 15:42:47:306  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 15:42:47:307  SEND: <presence type="time_statistics" id="5AE12289-A875-40F6-A73A-C71E71A85EE3"><im_login_time>442</im_login_time><chat_login_time>630</chat_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 15:42:47:315  SEND: <iq type="get" id="0C2761BD-0214-4C11-997C-67D27356B223"><query xmlns="jabber:iq:roster" ver="27c35815f06b268561ad782e69450ed7f67c703d"/></iq>
+2016/08/16 15:42:47:381  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='C3588CD4-E065-4BCC-8F7F-5C453CBE8303' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 15:42:47:386  SEND: <iq type="get" id="B6083904-0421-4489-B896-B4F28AEEB6B3"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 15:42:47:418  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='0C2761BD-0214-4C11-997C-67D27356B223' type='result'/>
+2016/08/16 15:42:47:828  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='B6083904-0421-4489-B896-B4F28AEEB6B3' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 15:52:22:613  database opened --- 2200245309
+2016/08/16 15:52:22:613  begin login username:2200245309--password:8e7cd4569259611a38230392f454631d116e90bf--
+2016/08/16 15:52:22:628  database opened --- 2200245309
+2016/08/16 15:52:23:011  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.23.59 -- port:443
+2016/08/16 15:52:23:034  SEND: <?xml version='1.0'?>
+2016/08/16 15:52:23:034  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:52:23:097  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='2281074985' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:52:23:098  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="2281074985" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:52:23:099  RECV: <stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:52:23:099  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 15:52:23:224  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 15:52:23:224  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:52:23:245  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='3412358507' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:52:23:245  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="3412358507" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:52:23:246  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:52:23:247  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 15:52:23:271  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 15:52:23:272  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:52:23:327  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1437894599' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:52:23:327  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1437894599" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:52:23:328  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:52:23:329  SEND: <iq type="set" id="2C429853-73AF-4A42-8EA0-81DC25E3143C"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 15:52:23:446  RECV: <iq id='2C429853-73AF-4A42-8EA0-81DC25E3143C' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 15:52:23:450  SEND: <iq type="set" id="5DAC66A3-9B16-40A3-B11D-1AC46CF874DE"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 15:52:23:470  RECV: <iq type='result' id='5DAC66A3-9B16-40A3-B11D-1AC46CF874DE'/>
+2016/08/16 15:52:23:477  SEND: <iq type="get" id="D00AECF9-18EF-4DCB-AEE2-5B19C6313A9E"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 15:52:23:479  SEND: <presence type="time_statistics" id="1284495A-B7C7-4B04-A6C4-632633F5C6DD"><im_login_time>464</im_login_time><chat_login_time>851</chat_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 15:52:23:480  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 15:52:23:493  SEND: <iq type="get" id="AD99B30C-E025-4508-9BB0-013E4CD975F6"><query xmlns="jabber:iq:roster" ver="27c35815f06b268561ad782e69450ed7f67c703d"/></iq>
+2016/08/16 15:52:23:546  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='D00AECF9-18EF-4DCB-AEE2-5B19C6313A9E' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 15:52:23:550  SEND: <iq type="get" id="1F1742A8-233F-47A0-90CF-A979FD0A875C"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 15:52:23:592  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='AD99B30C-E025-4508-9BB0-013E4CD975F6' type='result'/>
+2016/08/16 15:52:24:033  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='1F1742A8-233F-47A0-90CF-A979FD0A875C' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 15:57:06:281  database opened --- 2200245309
+2016/08/16 15:57:06:282  begin login username:2200245309--password:8e7cd4569259611a38230392f454631d116e90bf--
+2016/08/16 15:57:06:298  database opened --- 2200245309
+2016/08/16 15:57:06:713  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.23.59 -- port:443
+2016/08/16 15:57:06:742  SEND: <?xml version='1.0'?>
+2016/08/16 15:57:06:742  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:57:06:780  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1091214461' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:57:06:780  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1091214461" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:57:06:781  RECV: <stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:57:06:781  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 15:57:06:800  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 15:57:06:801  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:57:06:944  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='256005376' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:57:06:945  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="256005376" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:57:06:946  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:57:06:949  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 15:57:06:982  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 15:57:06:987  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:57:07:010  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='785949555' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:57:07:011  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="785949555" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:57:07:012  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:57:07:012  SEND: <iq type="set" id="E7CA8895-E2D4-4C54-9EBC-342F9A2DF58C"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 15:57:07:058  RECV: <iq id='E7CA8895-E2D4-4C54-9EBC-342F9A2DF58C' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 15:57:07:059  SEND: <iq type="set" id="5486A50E-4A67-47C1-A7C1-9428012BF894"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 15:57:07:088  RECV: <iq type='result' id='5486A50E-4A67-47C1-A7C1-9428012BF894'/>
+2016/08/16 15:57:07:090  SEND: <iq type="get" id="8450159C-878B-466E-8CED-EC09859108CA"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 15:57:07:091  SEND: <presence type="time_statistics" id="5DB02472-0773-4181-8D85-99C39CC22F19"><im_login_time>376</im_login_time><chat_login_time>795</chat_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 15:57:07:091  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 15:57:07:099  SEND: <iq type="get" id="BCC3C70B-6CAC-4371-8BA5-E856402E3437"><query xmlns="jabber:iq:roster" ver="27c35815f06b268561ad782e69450ed7f67c703d"/></iq>
+2016/08/16 15:57:07:234  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='8450159C-878B-466E-8CED-EC09859108CA' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 15:57:07:238  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='BCC3C70B-6CAC-4371-8BA5-E856402E3437' type='result'/>
+2016/08/16 15:57:07:239  SEND: <iq type="get" id="13D2B46D-3EB4-4E3C-A780-9976D7BA150C"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 15:57:07:374  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='13D2B46D-3EB4-4E3C-A780-9976D7BA150C' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 15:59:45:029  begin login username:2200245309--password:8e7cd4569259611a38230392f454631d116e90bf--
+2016/08/16 15:59:45:030  database opened --- 2200245309
+2016/08/16 15:59:45:037  database opened --- 2200245309
+2016/08/16 15:59:45:367  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.20.117 -- port:443
+2016/08/16 15:59:45:436  SEND: <?xml version='1.0'?>
+2016/08/16 15:59:45:436  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:59:45:560  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='56595610' from='easemob.com' version='1.0' xml:lang='en'><stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:59:45:561  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="56595610" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:59:45:561  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 15:59:45:629  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 15:59:45:629  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:59:45:702  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1029229381' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:59:45:703  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1029229381" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:59:45:705  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:59:45:751  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 15:59:45:812  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 15:59:45:812  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 15:59:45:867  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1837328146' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 15:59:45:867  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1837328146" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 15:59:45:867  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 15:59:45:868  SEND: <iq type="set" id="3481D078-61EA-4C57-92E0-5D518801B86C"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 15:59:45:924  RECV: <iq id='3481D078-61EA-4C57-92E0-5D518801B86C' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 15:59:45:927  SEND: <iq type="set" id="F026C037-08BE-477A-8C59-07948C0F1265"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 15:59:45:984  RECV: <iq type='result' id='F026C037-08BE-477A-8C59-07948C0F1265'/>
+2016/08/16 15:59:45:991  SEND: <iq type="get" id="B645B2B0-C262-48C8-A02B-2E43BCBA5D58"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 15:59:45:992  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 15:59:45:994  SEND: <presence type="time_statistics" id="9830DC81-A1CA-4415-9B42-BFF4B641F4F8"><im_login_time>620</im_login_time><chat_login_time>954</chat_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 15:59:46:005  SEND: <iq type="get" id="FC6ABF18-A1BC-4E76-95CD-1AFD6665473F"><query xmlns="jabber:iq:roster" ver="27c35815f06b268561ad782e69450ed7f67c703d"/></iq>
+2016/08/16 15:59:46:065  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='B645B2B0-C262-48C8-A02B-2E43BCBA5D58' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 15:59:46:068  SEND: <iq type="get" id="378CC90D-32E3-4B03-AF16-A7DF4A16B0D0"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 15:59:46:398  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='FC6ABF18-A1BC-4E76-95CD-1AFD6665473F' type='result'/>
+2016/08/16 15:59:46:462  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='378CC90D-32E3-4B03-AF16-A7DF4A16B0D0' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
+2016/08/16 16:03:43:458  SEND: </stream:stream>
+2016/08/16 19:22:59:056  XMPPStream::connectToHost:onPort:withTimeout:error: -- host:182.92.20.117 -- port:443
+2016/08/16 19:22:59:086  SEND: <?xml version='1.0'?>
+2016/08/16 19:22:59:086  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 19:22:59:140  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='4116899629' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 19:22:59:142  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="4116899629" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 19:22:59:143  RECV: <stream:features><compression xmlns='http://jabber.org/features/compress'><method>zlib</method></compression><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 19:22:59:143  SEND: <compress xmlns="http://jabber.org/protocol/compress"><method>zlib</method></compress>
+2016/08/16 19:22:59:170  RECV: <compressed xmlns='http://jabber.org/protocol/compress'/>
+2016/08/16 19:22:59:170  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 19:22:59:199  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1448545392' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 19:22:59:200  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1448545392" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 19:22:59:201  RECV: <stream:features><mechanisms xmlns='urn:ietf:params:xml:ns:xmpp-sasl'><mechanism>PLAIN</mechanism></mechanisms><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 19:22:59:203  SEND: <auth xmlns="urn:ietf:params:xml:ns:xmpp-sasl" mechanism="PLAIN">AHhpbGV4dWFuI3hpbGV4dWFuXzIyMDAyNDUzMDkAOGU3Y2Q0NTY5MjU5NjExYTM4MjMwMzkyZjQ1NDYzMWQxMTZlOTBiZg==</auth>
+2016/08/16 19:22:59:270  RECV: <success xmlns='urn:ietf:params:xml:ns:xmpp-sasl'/>
+2016/08/16 19:22:59:271  SEND: <stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' version='1.0' to='easemob.com'>
+2016/08/16 19:22:59:300  RECV: <?xml version='1.0'?><stream:stream xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams' id='1300717193' from='easemob.com' version='1.0' xml:lang='en'>
+2016/08/16 19:22:59:300  RECV: <stream:stream xmlns="jabber:client" xmlns:stream="http://etherx.jabber.org/streams" id="1300717193" from="easemob.com" version="1.0" stream1:lang="en"/>
+2016/08/16 19:22:59:301  RECV: <stream:features><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'/><session xmlns='urn:ietf:params:xml:ns:xmpp-session'/><ver xmlns='urn:xmpp:features:rosterver'/><c xmlns='http://jabber.org/protocol/caps' hash='sha-1' node='http://www.easemob.com/' ver='pNSTsv0+8X2VCrBE7jESku4qtkk='/><register xmlns='http://jabber.org/features/iq-register'/></stream:features>
+2016/08/16 19:22:59:302  SEND: <iq type="set" id="69F87AF6-EE97-4398-A078-DA0943C274F6"><bind xmlns="urn:ietf:params:xml:ns:xmpp-bind"><resource>mobile</resource></bind></iq>
+2016/08/16 19:22:59:399  RECV: <iq id='69F87AF6-EE97-4398-A078-DA0943C274F6' type='result'><bind xmlns='urn:ietf:params:xml:ns:xmpp-bind'><jid>xilexuan#xilexuan_2200245309@easemob.com/mobile</jid></bind></iq>
+2016/08/16 19:22:59:403  SEND: <iq type="set" id="1E24EEE5-3057-4DA6-AE67-632974898D8C"><session xmlns="urn:ietf:params:xml:ns:xmpp-session"/></iq>
+2016/08/16 19:22:59:431  RECV: <iq type='result' id='1E24EEE5-3057-4DA6-AE67-632974898D8C'/>
+2016/08/16 19:22:59:434  SEND: <iq type="get" id="53B86126-667F-4445-8EB7-5A9E3587A6F6"><query xmlns="jabber:iq:privacy"/></iq>
+2016/08/16 19:22:59:435  SEND: <presence type="time_statistics" id="778AC2A2-2053-4C76-9D19-D7DE4E6F99E5"><im_login_time>376</im_login_time><version>2.25</version><os>ios</os></presence>
+2016/08/16 19:22:59:436  SEND: <iq type="result"><query xmlns="jabber:iq:version"><name>easemob</name><version>2.25</version><os>ios</os></query></iq>
+2016/08/16 19:22:59:492  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='53B86126-667F-4445-8EB7-5A9E3587A6F6' type='result'><query xmlns='jabber:iq:privacy'><active name='special'/><default name='special'/><list name='special'/></query></iq>
+2016/08/16 19:22:59:494  SEND: <iq type="get" id="F9E6338B-5136-4DC6-BF85-D50138EBE379"><query xmlns="jabber:iq:privacy"><list name="special"/></query></iq>
+2016/08/16 19:22:59:722  RECV: <iq from='xilexuan#xilexuan_2200245309@easemob.com' to='xilexuan#xilexuan_2200245309@easemob.com/mobile' id='F9E6338B-5136-4DC6-BF85-D50138EBE379' type='result'><query xmlns='jabber:iq:privacy'><list name='special'><item type='jid' value='xilexuan#xilexuan_2200222061@easemob.com' action='deny' order='100'><message/></item></list></query></iq>
